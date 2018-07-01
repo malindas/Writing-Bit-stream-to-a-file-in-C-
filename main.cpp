@@ -6,7 +6,8 @@ using namespace std;
 int main ( int argc, char** argv ) {
 
 	ofstream file("Eded.bin", ios::out | ios::binary );
-
+	
+	// Sample byte array to be saved as a bit stream
 	uint16_t a[10] = {1,2,3,4,5,12,7,8,9,10}; 
 	uint16_t temp = 0x8000;
 
